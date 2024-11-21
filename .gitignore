@@ -1,0 +1,19 @@
+# Ignore node_modules in both client and server
+client/node_modules/
+server/node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore environment files (containing sensitive data)
+server/.env
+
+# Ignore build files from React app
+client/build/
+
+# Ignore OS files
+.DS_Store
+
+# Ignore package-lock.json (optional if you want to exclude it)
+client/package-lock.json
+server/package-lock.json
